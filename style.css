@@ -19,3 +19,38 @@
 	border: 1px solid black;
 	color: red;
 }
+
+.header {
+	height: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+	background-color: #e3e6f3;
+	position: sticky;
+	top: 0px;
+	left: 0px;
+}
+
+.navigation{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	gap: 15px;
+}
+
+.navigation li {
+	font-weight: 700;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.logo {
+	height: 50px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
